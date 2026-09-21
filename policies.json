@@ -1,6 +1,6 @@
 {
   "policies": {
-    "DisableRemoteImprovements": true
+    "DisableRemoteImprovements": true,
     "SkipTermsOfUse": true
   }
 }
