@@ -1,0 +1,6 @@
+{
+  "policies": {
+    "DisableRemoteImprovements": true
+    "SkipTermsOfUse": true
+  }
+}
