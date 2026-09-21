@@ -43,5 +43,7 @@ user_pref("browser.newtabpage.activity-stream.showSponsored",false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredCheckboxes",false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites",false);
 
-// disable welcome page
-user_pref("browser.aboutwelcome.enabled",false)
+// disable about:welcome among other things
+user_pref("browser.aboutwelcome.enabled",false);
+user_pref("browser.startup.homepage_override.mstone","ignore");
+user_pref("browser.startup.firstrunSkipsHomepage",false);
