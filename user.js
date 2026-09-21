@@ -1,4 +1,4 @@
-// Telemetry
+// disable telemetry
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry",false);
 user_pref("browser.newtabpage.activity-stream.telemetry",false);
 user_pref("browser.ping-centre.telemetry",false);
@@ -31,9 +31,12 @@ user_pref("network.connectivity-service.enabled",false);
 user_pref("network.connectivity-service.IPv4.url","");
 user_pref("network.connectivity-service.IPv6.url","");
 user_pref("browser.safebrowsing.downloads.remote.enabled",false);
+user_pref("datareporting.usage.uploadEnabled",false);
 
-// Enable adding custom search engines
-user_pref("browser.urlbar.update2.engineAliasRefresh",true);
-
-// Cache
-user_pref("media.memory_cache_max_size",65536);
+// new tab
+user_pref("browser.newtabpage.activity-stream.discoverystream.sections.personalization.enabled",false);
+user_pref("browser.newtabpage.activity-stream.feeds.topsites",false);
+user_pref("browser.newtabpage.activity-stream.feeds.section.topstories",false);
+user_pref("browser.newtabpage.activity-stream.showSponsored",false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredCheckboxes",false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites",false);
