@@ -37,6 +37,7 @@ user_pref("app.normandy.api_url","");
 user_pref("app.shield.optoutstudies.enabled",true);
 
 // new tab
+user_pref("browser.newtabpage.activity-stream.discoverystream.enabled",false);
 user_pref("browser.newtabpage.activity-stream.discoverystream.sections.personalization.enabled",false);
 user_pref("browser.newtabpage.activity-stream.feeds.topsites",false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories",false);
