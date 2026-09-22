@@ -34,6 +34,7 @@ user_pref("browser.safebrowsing.downloads.remote.enabled",false);
 user_pref("datareporting.usage.uploadEnabled",false);
 user_pref("app.normandy.enabled",false);
 user_pref("app.normandy.api_url","");
+user_pref("app.shield.optoutstudies.enabled",true);
 
 // new tab
 user_pref("browser.newtabpage.activity-stream.discoverystream.sections.personalization.enabled",false);
