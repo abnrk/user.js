@@ -42,6 +42,7 @@ user_pref("browser.newtabpage.activity-stream.feeds.section.topstories",false);
 user_pref("browser.newtabpage.activity-stream.showSponsored",false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredCheckboxes",false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites",false);
+user_pref("browser.newtabpage.activity-stream.widgets.enabled",false);
 
 // disable about:welcome among other things
 user_pref("browser.aboutwelcome.enabled",false);
